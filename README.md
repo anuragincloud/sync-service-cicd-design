@@ -21,7 +21,7 @@ Flow : feature/* → develop → staging → main
 1. Checkout
 2. Build (Maven/Gradle)
 3. Unit Tests
-4. Static Code Analysis (SonarQube optional)
+4. Static Code Analysis (SonarQube)
 5. Build Docker Image
 6. Push to Artifact Registry (GCP)
 7. Deploy (based on branch)

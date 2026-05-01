@@ -11,7 +11,7 @@ Flow : feature/* → develop → staging → main
 Preventing Accidental Prod Deployments:
 Only main branch can deploy to production
 
-Jenkins Pipeline Design (Stages):
+#Jenkins Pipeline Design (Stages):
 1. Checkout
 2. Build (Maven/Gradle)
 3. Unit Tests
